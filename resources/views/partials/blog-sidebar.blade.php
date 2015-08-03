@@ -25,13 +25,13 @@
         </ol>
     </div>
     -->
-    <!--
+
     <div class="sidebar-module">
         <h4>Elsewhere</h4>
         <ol class="list-unstyled">
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Twitter</a></li>
+            <li><a href="https://github.com/mdavison">GitHub</a></li>
+            <li><a href="https://twitter.com/_morgandavison">Twitter</a></li>
         </ol>
     </div>
-    -->
+
 </div><!-- /.blog-sidebar -->
