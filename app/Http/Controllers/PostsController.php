@@ -94,7 +94,10 @@ class PostsController extends Controller {
 	 */
 	public function update(Request $request, $id)
 	{
-        $this->validate($request, Post::$rules);
+        // Make an exception to the unique rule on the slug for the current post
+        Post::$rules['slug'] = 'unique:posts,slug,'.$id;
+
+		$this->validate($request, Post::$rules);
 
         $post = Post::findOrFail($id);
         //$post->update($request->all());

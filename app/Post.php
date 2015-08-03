@@ -24,8 +24,8 @@ class Post extends Model {
 
     public static $rules = [
         'title' => 'required',
-        'slug'  => 'unique:posts',
-        'body'  => 'required'
+        'slug'  => 'unique:posts,slug',
+        'body'  => 'required',
     ];
 
 }
